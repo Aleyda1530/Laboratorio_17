@@ -8,6 +8,6 @@ function validarEdad(edad) {
 try{
     let resultado = validadEdad(-19);
     console.log(resultado);
-} catch (error){
-    console.log("Ocurrió un error ", error.message);
+} catch (e){
+    console.log("Ocurrió un error ", e.message);
 }
